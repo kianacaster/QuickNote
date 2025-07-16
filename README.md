@@ -1,9 +1,9 @@
 
-# QuickNotes
+# QuickNote
 
 A simple, fast note-taking app designed for instant thought capture without interrupting your workflow.
 
-The core idea of QuickNotes is to have a lightweight text box appear with a single keypress, allowing you to jot down a thought, press Enter, and have it disappear. Your note is instantly saved to a timestamped text file, letting you get back to what you were doing with minimal distraction.
+The core idea of QuickNote is to have a lightweight text box appear with a single keypress, allowing you to jot down a thought, press Enter, and have it disappear. Your note is instantly saved to a timestamped text file, letting you get back to what you were doing with minimal distraction.
 
 The public use version is untested, it might not work and I'm not really that bothered to find out. My personalized version does and that's all that matters.
 ## Features
@@ -16,13 +16,13 @@ The public use version is untested, it might not work and I'm not really that bo
 
 ## Intended Use: Keybinding
 
-QuickNotes is most effective when launched with a global hotkey or keybinding. This allows you to summon the note-taking window from anywhere in your operating system.
+QuickNote is most effective when launched with a global hotkey or keybinding. This allows you to summon the note-taking window from anywhere in your operating system.
 
 For example, you can add the following to your Hyprland configuration (`~/.config/hypr/hyprland.conf`):
 
 ```sh
-# Keybind to launch QuickNotes
-bind = $mainMod, N, exec, python /path/to/your/QuickNotes/quicknote_public.py
+# Keybind to launch QuickNote
+bind = $mainMod, N, exec, python /path/to/your/QuickNote/quicknote_public.py
 ```
 
 Replace `$mainMod, N` with your desired key combination and update the path to point to the `quicknote_public.py` script.
@@ -40,7 +40,7 @@ pip install pyglet
 To run the application, execute the public script:
 
 ```sh
-python /path/to/your/QuickNotes/quicknote_public.py
+python /path/to/your/QuickNote/quicknote_public.py
 ```
 
 - **Type your note** and press `Enter` to save it.
