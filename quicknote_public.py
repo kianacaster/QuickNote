@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# QuickNotes - A simple, fast note-taking app.
+# QuickNote - A simple, fast note-taking app.
 
 # This application provides a quick way to capture notes from your desktop.
 # Designed to be frictionless, so you can quickly jot your ideas without 
@@ -31,7 +31,7 @@ from datetime import datetime
 
 # The file where notes are saved.
 # os.path.expanduser("~") ensures this works on all operating systems.
-NOTE_FILE = os.path.expanduser("~/quicknotes.txt")
+NOTE_FILE = os.path.expanduser("~/QuickNote.txt")
 
 # Window dimensions
 WINDOW_WIDTH = 800
